@@ -1,0 +1,59 @@
+Query 1:
+<QUERY>
+Is Kubrick a director?
+
+('<SQL>\n', " select  count(*)  from  director D INNER JOIN Person P ON D.director_id = P.id  where P.name like '%Kubrick%'")
+
+<ANSWER>
+yes
+
+
+Query 2:
+<QUERY>
+Is Mighty Aphrodite by Allen?
+
+('<SQL>\n', " select  count(*)  from  director D INNER JOIN Person P ON D.director_id = P.id  INNER JOIN Movie M ON D.movie_id=M.id  where P.name like '%Allen%'and M.name like '%Mighty%'")
+
+<ANSWER>
+yes
+
+
+Query 3:
+<QUERY>
+Was Loren born in Italy?
+
+('<SQL>\n', " select  count(*)  from  director D INNER JOIN Person P ON D.director_id = P.id  INNER JOIN Movie M ON D.movie_id=M.id  where P.name like '%Allen%'and M.name like '%Mighty%'")
+
+<ANSWER>
+yes
+
+
+Query 4:
+<QUERY>
+Who won the oscar for best actor in 2005?
+
+('<SQL>\n', " select  P.NAME from  Person P INNER JOIN Oscar O ON P.id=O.person_id  where O.type like '%BEST-actor%'AND O.YEAR LIKE '%2005%'")
+
+<ANSWER>
+Jamie Foxx
+
+
+Query 5:
+<QUERY>
+Which actress won the oscar in 2012?
+
+('<SQL>\n', " select  P.NAME from  Person P INNER JOIN Oscar O ON P.id=O.person_id  where O.type like '%BEST-actress%'AND O.YEAR LIKE '%2012%'")
+
+
+<ANSWER>
+Meryl Streep
+
+
+Query 6:
+<QUERY>
+When did Blanchett win an oscar for best actress?
+
+('<SQL>\n', "Select O.year from  Oscar O  INNER JOIN Person P ON P.id = O.person_id  where P.name like '%Blanchett%' and O.type like'BEST-actress'")
+
+<ANSWER>
+2014

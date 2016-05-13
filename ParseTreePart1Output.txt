@@ -1,0 +1,441 @@
+<QUESTION> Is Rome the capital of Italy?
+
+<CATEGORY> geography
+<PARSETREE>   (SBARQ
+  (SQ
+    (VBZ is)
+    (NP
+      (NP (NNP Rome) (DT the) (NN capital))
+      (PP (IN of) (NP (NNP Italy)))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Is France in Europe?
+
+<CATEGORY> geography
+<PARSETREE>   (SBARQ
+  (SQ (VBZ is) (NP (NP (NNP France)) (PP (IN in) (NP (NNP Europe)))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Is the Pacific deeper than the Atlantic?
+
+<CATEGORY> geography
+<PARSETREE>   (SBARQ
+  (SQ
+    (VBZ is)
+    (NP
+      (NP (DT the) (NNP Pacific) (NNP deeper))
+      (PP (IN than) (NP (DT the) (NNP Atlantic)))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Did Neeson star in Schindler's List?
+
+<CATEGORY> movie
+<PARSETREE>   (SQ+VP+VP
+  (VBD did)
+  (NP (NNP Neeson) (NN star))
+  (PP (IN in) (NP (NP (NNP Schindler) (POS 's)) (NNP List) (. ?)))) 
+
+
+
+
+<QUESTION> Did Swank win the oscar in 2000?
+
+<CATEGORY> movie
+<PARSETREE>   (SBARQ
+  (SQ
+    (VBD did)
+    (NP (NNP Swank))
+    (VP
+      (VB win)
+      (NP (NP (DT the) (NN oscar)) (PP (IN in) (NP (CD 2000))))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Is the Shining by Kubrick?
+
+<CATEGORY> movie
+<PARSETREE>   (SBARQ
+  (SQ
+    (VBZ is)
+    (NP (NP (DT the) (NNP Shining)) (PP (IN by) (NP (NNP Kubrick)))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Did a French actor win the oscar in 2012?
+
+<CATEGORY> movie
+<PARSETREE>   (SBARQ
+  (SQ
+    (VBD did)
+    (NP (DT a) (JJ French) (NN actor))
+    (VP
+      (VB win)
+      (NP (NP (DT the) (NN oscar)) (PP (IN in) (NP (CD 2012))))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Did a movie by Spielberg with Neeson win the oscar for best film?
+
+<CATEGORY> movie
+<PARSETREE>   (SBARQ
+  (SQ
+    (VBD did)
+    (NP
+      (NP (NP (DT a) (NN movie)) (PP (IN by) (NP (NNP Spielberg))))
+      (PP (IN with) (NP (NNP Neeson))))
+    (VP
+      (VB win)
+      (NP
+        (NP (DT the) (NN oscar))
+        (PP (IN for) (NP (JJS best) (NN film))))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Did Madonna sing PapaDoNotPreach?
+
+<CATEGORY> music
+<PARSETREE>   (SBARQ
+  (SQ (VBD did) (NP (NNP Madonna) (VBG sing) (NN PapaDoNotPreach)))
+  (. ?)) 
+
+
+
+
+<QUESTION> Does the album Thriller include the track BeatIt?
+
+<CATEGORY> music
+<PARSETREE>   (SBARQ
+  (SQ
+    (VBZ does)
+    (NP (DT the) (NN album) (NN Thriller))
+    (VP (VBP include) (NP (DT the) (JJ track) (NN BeatIt))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Was Beyonce' born in the USA?
+
+<CATEGORY> music
+<PARSETREE>   (SBARQ
+  (SQ
+    (VBD was)
+    (NP (NNP Beyonce) (POS '))
+    (VP (VBN born) (PP (IN in) (NP (DT the) (NN USA)))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Who directed Hugo?
+
+<CATEGORY> movie
+<PARSETREE>   (NP+SBAR (WHNP (WP who)) (S+VP (VBD directed) (NP (NNP Hugo) (. ?)))) 
+
+
+
+
+<QUESTION> Which is the scary movie by Kubrick with Nicholson?
+
+<CATEGORY> movie
+<PARSETREE>   (SBAR
+  (WHNP (WDT which))
+  (S
+    (VP
+      (VBZ is)
+      (NP
+        (NP
+          (NP (DT the) (JJ scary) (NN movie))
+          (PP (IN by) (NP (NNP Kubrick))))
+        (PP (IN with) (NP (NNP Nicholson)))))
+    (. ?))) 
+
+
+
+
+<QUESTION> Who won the oscar for the best actor in 2005?
+
+<CATEGORY> movie
+<PARSETREE>   (SBARQ
+  (WHNP (WP who))
+  (SQ
+    (VBD won)
+    (NP
+      (NP
+        (NP (DT the) (NN oscar))
+        (PP (IN for) (NP (DT the) (JJS best) (NN actor))))
+      (PP (IN in) (NP (CD 2005)))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Which actress won the oscar in 2012?
+
+<CATEGORY> movie
+<PARSETREE>   (SBARQ
+  (WHNP (WDT which) (NN actress))
+  (SQ
+    (VBD won)
+    (NP (NP (DT the) (NN oscar)) (PP (IN in) (NP (CD 2012)))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Who directed the best movie in 2010?
+
+<CATEGORY> movie
+<PARSETREE>   (SBARQ
+  (WHNP (WP who))
+  (SQ
+    (VBD directed)
+    (NP
+      (NP (DT the) (JJS best) (NN movie))
+      (PP (IN in) (NP (CD 2010)))))
+  (. ?)) 
+
+
+
+
+<QUESTION> In which continent does Canada lie?
+
+<CATEGORY> geography
+<PARSETREE>   (SBARQ
+  (WHPP (IN in) (WHNP (WDT which) (NN continent)))
+  (SQ (VBZ does) (NP (NNP Canada) (NNP lie)))
+  (. ?)) 
+
+
+
+
+<QUESTION> What is the capital of Spain?
+
+<CATEGORY> geography
+<PARSETREE>   (SBARQ
+  (WHNP (WP what))
+  (SQ
+    (VBZ is)
+    (NP (NP (DT the) (NN capital)) (PP (IN of) (NP (NNP Spain)))))
+  (. ?)) 
+
+
+
+
+<QUESTION> With which countries does France have a border?
+
+<CATEGORY> geography
+<PARSETREE>   (SBARQ
+  (WHPP (IN with) (WHNP (WDT which) (NNS countries)))
+  (SQ
+    (VBZ does)
+    (NP (NNP France))
+    (VP (VB have) (NP (DT a) (NN border))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Which is the highest mountain in the world?
+
+<CATEGORY> geography
+<PARSETREE>   (SBAR
+  (WHNP (WDT which))
+  (S
+    (VP
+      (VBZ is)
+      (NP
+        (DT the)
+        (JJS highest)
+        (NN mountain)
+        (PP (IN in) (NP (DT the) (NN world)))))
+    (. ?))) 
+
+
+
+
+<QUESTION> Where is the highest mountain?
+
+<CATEGORY> geography
+<PARSETREE>   (SBARQ
+  (WHADVP (WRB where))
+  (SQ (VBZ is) (NP (DT the) (JJS highest) (NN mountain)))
+  (. ?)) 
+
+
+
+
+<QUESTION> Which is the deepest ocean?
+
+<CATEGORY> geography
+<PARSETREE>   (SBAR
+  (WHNP (WDT which))
+  (S (VP (VBZ is) (NP (DT the) (JJ deepest) (NN ocean))) (. ?))) 
+
+
+
+
+<QUESTION> Which pop artist sings CrazyInLove?
+
+<CATEGORY> music
+<PARSETREE>   (SBARQ
+  (WHNP (WDT which) (NP (JJ pop) (NN artist)))
+  (SQ (VBZ sings) (NP (NN CrazyInLove)))
+  (. ?)) 
+
+
+
+
+<QUESTION> Where was Gaga born?
+
+<CATEGORY> music
+<PARSETREE>   (SBARQ
+  (WHADVP (WRB where))
+  (SQ (VBD was) (NP (NNP Gaga)) (VP (VBN born)))
+  (. ?)) 
+
+
+
+
+<QUESTION> In which album does Aura appear?
+
+<CATEGORY> music
+<PARSETREE>   (SBARQ
+  (WHPP (IN in) (WHNP (WDT which) (NN album)))
+  (SQ (VBZ does) (NP (NNP Aura) (VBP appear)))
+  (. ?)) 
+
+
+
+
+<QUESTION> Which album by Swift was released in 2014?
+
+<CATEGORY> music
+<PARSETREE>   (SBARQ
+  (WHNP (WHNP (WDT which) (NN album)) (PP (IN by) (NP (NNP Swift))))
+  (SQ+VP (VBD was) (VBD released) (PP (IN in) (NP (CD 2014))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Which pop artist sang PapaDoNotPreach?
+
+<CATEGORY> music
+<PARSETREE>   (SBARQ
+  (WHNP (WDT which) (NN pop))
+  (SQ (NP (NN artist) (NN sang)) (VP (VB PapaDoNotPreach)))
+  (. ?)) 
+
+
+
+
+<QUESTION> Who released a rock album in 2012?
+
+<CATEGORY> music
+<PARSETREE>   (SBARQ
+  (WHNP (WP who))
+  (SQ
+    (VBD released)
+    (NP (NP (DT a) (NN rock) (NN album)) (PP (IN in) (NP (CD 2012)))))
+  (. ?)) 
+
+
+
+
+<QUESTION> In which country was Niven born?
+
+<CATEGORY> movie
+<PARSETREE>   (SBARQ
+  (WHPP (IN in) (WHNP (WDT which) (NN country)))
+  (SQ (VBD was) (NP (NNP Niven)) (VP (VBN born)))
+  (. ?)) 
+
+
+
+
+<QUESTION> Did Redmayne win the oscar for best actor in 2015?
+
+<CATEGORY> movie
+<PARSETREE>   (SBARQ
+  (SQ
+    (VBD did)
+    (NP (NNP Redmayne))
+    (VP
+      (VB win)
+      (NP
+        (NP
+          (NP (DT the) (NN oscar))
+          (PP (IN for) (NP (JJS best) (NN actor))))
+        (PP (IN in) (NP (CD 2015))))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Who starred in Schindler's List?
+
+<CATEGORY> movie
+<PARSETREE>   (SBARQ
+  (WHNP (WP who))
+  (SQ+VP
+    (VBD starred)
+    (PP (IN in) (NP (NP (NNP Schindler) (POS 's)) (NNP List))))
+  (. ?)) 
+
+
+
+
+<QUESTION> What is the capital to XYZ?
+
+<CATEGORY> geography
+<PARSETREE>   (SBARQ
+  (WHNP (WP what))
+  (SQ
+    (VBZ is)
+    (NP (NP (DT the) (NN capital)) (PP (TO to) (NP (NNS XYZ)))))
+  (. ?)) 
+
+
+
+
+<QUESTION> With which countries does Italy have a border?
+
+<CATEGORY> geography
+<PARSETREE>   (SBARQ
+  (WHPP (IN with) (WHNP (WDT which) (NNS countries)))
+  (SQ
+    (VBZ does)
+    (NP (NNP Italy))
+    (VP (VB have) (NP (DT a) (NN border))))
+  (. ?)) 
+
+
+
+
+<QUESTION> Is Italy in Europe?
+<CATEGORY> geography
+<PARSETREE>   (SBARQ
+  (SQ (VBZ is) (NP (NP (NNP Italy)) (PP (IN in) (NP (NNP Europe)))))
+  (. ?)) 
+
+
+
+

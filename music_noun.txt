@@ -1,0 +1,12 @@
+album
+albums
+track
+tracks
+pop
+artist
+artists
+rock
+song
+songs
+dance
+singer

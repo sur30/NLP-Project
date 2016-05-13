@@ -1,0 +1,14 @@
+continent
+continents
+capital
+capitals
+border
+border
+country
+countries
+ocean
+oceans
+mountain
+mountains
+sea
+seas

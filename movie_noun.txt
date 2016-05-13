@@ -1,0 +1,14 @@
+film
+films
+oscar
+movie
+movies
+actor
+actors
+actress
+actresses
+role
+roles
+star
+stars
+director
