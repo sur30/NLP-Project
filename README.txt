@@ -1,1 +1,1 @@
-Run the file schowd21_sarora23.py and give the sentence as input
+Run the file main.py and give the sentence as input
